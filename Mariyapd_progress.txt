@@ -1,0 +1,11 @@
+Day 1: february 6th 2025
+planned a basic outline for portfolio
+learned some basic tags like th,imgsrc etc
+challenges faced:lack of creativity
+
+Day2: february 7th 2025
+implemented the tools and created a portfolio
+challenges faced in styles and css
+
+----commit
+
