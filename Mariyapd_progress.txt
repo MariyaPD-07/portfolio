@@ -8,4 +8,8 @@ implemented the tools and created a portfolio
 challenges faced in styles and css
 
 ----commit
+Day3:february 8th 2025
+implemented some other styles and created a portfolio
+challenges faced in css
 
+------commit

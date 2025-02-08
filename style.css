@@ -1,4 +1,5 @@
-* {
+
+ {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,35 +7,79 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color:powderblue;
+    background-color: #f0f0f0; 
+    color: #333; 
 }
-
 header {
-    background-color: #333;
+    background-color: #4a90e2; 
     color: white;
     padding: 20px;
     text-align: center;
 }
-
-h1 {
-    font-size: 2.5rem;
+.sidebar {
+    width: 220px;
+    height: 100vh;
+    background-color: #2f3640; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+    text-align: center;
 }
 
+.sidebar h2 {
+    color: #f39c12; 
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.sidebar nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar button {
+    background-color: #34495e; 
+    color: #ecf0f1; 
+    border: 2px solid transparent;
+    padding: 15px 20px;
+    margin: 12px 0;
+    width: 80%;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.sidebar button:hover {
+    background-color: #f39c12; 
+    border-color: #f39c12;
+    color: #2c3e50; 
+}
+
+.sidebar a {
+    text-decoration: none;
+}
+.main-content {
+    margin-left: 240px; 
+    padding: 40px;
+    background-color: #f0f0f0; 
+}
 section {
     padding: 20px;
     margin: 20px auto;
     width: 80%;
     max-width: 900px;
     background-color: white;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 h2 {
     font-size: 1.8rem;
+    color: #2980b9; 
     margin-bottom: 10px;
 }
-
 table {
     width: 100%;
     border-collapse: collapse;
@@ -42,7 +87,7 @@ table {
 }
 
 table, th, td {
-    border: 1px solid #ddd;
+    border: 1px solid #ddd; 
 }
 
 th, td {
@@ -51,21 +96,19 @@ th, td {
 }
 
 th {
-    background-color: #f4f4f4;
+    background-color: #ecf0f1; 
     font-weight: bold;
 }
-
 a {
-    color: #0073e6;
+    color: #2980b9;
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
 }
-
 footer {
-    background-color: #333;
+    background-color: #34495e; 
     color: white;
     padding: 10px;
     text-align: center;
